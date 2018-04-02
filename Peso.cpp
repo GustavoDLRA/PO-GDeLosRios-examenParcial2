@@ -16,15 +16,15 @@ Peso operator +(const Peso &vPeso1, const Peso &vPeso2){
     Peso resultado = *new Peso(cantRes);
 
 }
-Peso operator +(const Peso &vPeso1, const Dolar &vDolar1){
+/*Peso operator +(const Peso &vPeso1, const Dolar &vDolar1){
     float cPesos;
     float cDolares;
     cPesos=vPeso1.peso;
-}
-Peso operator + (const Dolar &vDolar1, const Peso &vPeso1){
+}*/
+/*Peso operator + (const Dolar &vDolar1, const Peso &vPeso1){
     float cDolares;
     float cPesos;
-}
+}*/
 
 Peso operator -(const Peso &vPeso1, const Peso &vPeso2){
     float c1;
